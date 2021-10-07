@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: sienna;
+}
+
+body {
+    background-color: khaki;
+    padding: 20px;
+    margin: 30px;
+}
+
+h1 {
+    color: chocolate;
+    padding: 10px;
+    margin: 20px 0px;
+    border-bottom: 2px solid chocolate;
+}
+
+h2 {
+    color: white;
+    background-color: darkgoldenrod;
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+p {
+    text-align: justify;
+    border: 2px solid peru;
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+}

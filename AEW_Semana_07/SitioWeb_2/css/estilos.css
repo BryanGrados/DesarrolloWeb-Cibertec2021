@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 2px solid blue;
+}
+
+html {
+    border: 2px solid red;
+}
+
+body {
+    border: 2px solid green;
+    margin: 25px 50px;
+    padding: 25px;
+}
+
+img {
+    margin: 25px auto;
+    display: block;
+}
+
+p {
+    margin-bottom: 25px;
+}
