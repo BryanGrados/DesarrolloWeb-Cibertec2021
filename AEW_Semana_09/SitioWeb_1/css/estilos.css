@@ -1,0 +1,20 @@
+body { 
+    background-color: darkgray;
+}
+
+#contenedor {
+    width: 80%;
+    background-color: white;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+img.izquierda {
+    float: left;
+    margin: 0px 10px 10px 0px;
+}
+
+img.derecha {
+    float: right;
+    margin: 0px 0px 10px 10px;
+}

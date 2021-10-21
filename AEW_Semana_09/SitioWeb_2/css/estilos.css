@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#caja1 {
+	background-color: yellow;
+	width: 100%;
+}
+
+#caja2 {
+	background-color: yellowgreen;
+	width: 100%;
+}
+
+#caja3 {
+	background-color: cyan;
+	width: 25%;
+}
+
+#caja4 {
+	background-color: plum;
+	width: 50%;
+}
+
+#caja5 {
+	background-color: coral;
+	width: 25%;
+}
+
+#caja6 {
+	background-color: cornflowerblue;
+	width: 100%;
+}
+
+p {
+	text-align: center;
+}
