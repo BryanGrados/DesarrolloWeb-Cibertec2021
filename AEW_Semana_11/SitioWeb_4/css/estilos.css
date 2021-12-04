@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: silver;
+}
+#contenedor {
+	width: 90%;
+	background-color: white;
+	margin: 20px auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+sheader {
+	width: 100%;
+	background-color: beige;
+}
+header img.logo {
+	float: right;
+	margin: 10px;
+}
+header img.banner {
+	width: 100%;
+	vertical-align: bottom;
+}
+aside {
+	width: 25%;
+	background-color: bisque;
+}
+aside a {
+	display: block;
+	margin: 10px;
+}
+section {
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+}
+article {
+	padding: 10px;
+}
+article img {
+	float: left;
+	margin-right: 10px;
+}
+article p {
+	text-align: justify;
+}
+footer {
+	width: 100%;
+	padding: 10px;	
+	background-color: dimgray;
+}
+footer img {
+	float: right;	
+	margin-left: 5px;
+}
+footer p {
+	color: white;
+}
+
+/*Navegador*/
+
+nav {
+    background-color: teal;
+	width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav > ul > li {
+    width: 20%;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 5px;
+}
+
+nav > ul > li > ul {
+    display: none;
+}
+
+nav > ul > li:hover > ul {
+    display: block;
+    position: absolute;
+    background-color: teal;
+
+}
+
+nav > ul > li > ul {
+    width: 20%;
+}
+
+nav a:hover {
+    background-color: turquoise;
+}
+
+
+
+
+

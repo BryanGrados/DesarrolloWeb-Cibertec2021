@@ -1,0 +1,114 @@
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gray;
+}
+
+#contenedor {
+    background-color: white;
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header {
+    width: 100%;
+    background-color: beige;
+}
+
+nav {
+    width: 100%;
+    background-color: yellowgreen;
+}
+
+#izquierda {
+    width: 20%;
+    background-color: bisque;
+}
+
+section {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#derecha {
+    width: 20%;
+    background-color: bisque;
+}
+
+footer {
+    width: 100%;
+    background-color: darkgray;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    color: crimson;
+    text-align: center;
+    margin: 10px;
+}
+
+header img {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+nav a {
+    display: inline-block;
+    padding: 1px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    background-color: lime;
+    color: black;
+}
+
+#izquierda a {
+    display: block;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+#izquierda a:hover {
+    text-decoration: underline;
+    color: crimson;
+}
+
+#izquierda h3 {
+    margin: 5px;
+}
+
+section figure {
+    width: 30%;
+    border: 1px solid black;
+    margin: 5px 0px;
+}
+
+section figure img {
+    width: 40%;
+    display: block;
+    margin: 5px auto;
+}
+
+section figure figcaption {
+    text-align: center;
+}
+
+#derecha img{
+    width: 60%;
+    margin: 10px auto;
+    display: block;
+}

@@ -1,0 +1,103 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: gray;
+}
+#contenedor {
+	width: 80%;
+	margin: 30px auto;
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+header {
+	background-color: bisque;
+	width: 100%;
+}
+header h1 {
+	color: firebrick;
+	padding: 30px;
+	text-align: center;
+}
+header img {
+	width: 100%;	
+	vertical-align: top;
+}
+nav {
+	background-color: darkkhaki;
+	width: 100%;
+}
+nav a {
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+	color: black;
+}
+nav a:hover {
+	background-color: gold;
+}
+#aizquierda {
+	background-color: bisque;
+	width: 25%;
+	padding: 20px;
+}
+#aizquierda h3 {
+	padding: 20px 0px;
+}
+#aizquierda a {
+	display: block;
+	padding: 5px 0px;
+	text-decoration: none;
+	color: firebrick;
+}
+#aizquierda a:hover {
+	text-decoration: underline;
+}
+#slibros {
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: white;
+}
+#slibros figure {
+	width: 27%;
+	margin: 20px 0px;
+	border: 1px solid gray;
+}
+#slibros figure img {
+	display: block;
+	margin: 20px auto;
+	width: 60%;
+}
+#slibros figure figcaption {
+	text-align: center;
+	margin: 10px;
+}
+#aderecha {
+	background-color: bisque;
+	width: 25%;
+}
+#aderecha img {
+	width: 80%;
+	display: block;
+	margin: 10px auto;
+}
+#aderecha h4 {
+	text-align: center;
+}
+footer {
+	width: 100%;
+	text-align: center;
+	background-color: dimgray;
+	padding: 10px;
+}
+footer p {
+	color: white;
+	margin-bottom: 20px;
+}

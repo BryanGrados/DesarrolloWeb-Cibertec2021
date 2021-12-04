@@ -1,0 +1,131 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: silver;
+}
+#contenedor {
+	width: 85%;
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 30px auto;
+}
+header {
+	width: 100%;
+	background-color: antiquewhite;
+}
+header h1 {
+	color: crimson;
+	text-align: center;
+	margin: 10px;
+}
+header img {
+	width: 100%;	
+	vertical-align: bottom;
+}
+#izquierda {
+	width: 20%;
+	background-color: antiquewhite;
+}
+#izquierda a {
+	display: block;	
+	margin: 10px;
+	text-decoration: none;
+	color: black;
+}
+#izquierda h2 {
+	margin: 10px;
+}
+#izquierda a:hover {
+	color: brown;
+	text-decoration: underline;
+}
+section {
+	width: 60%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+section figure {
+	width: 30%;
+	border: 1px solid black;
+	margin: 10px;
+}
+section figure img {
+	width: 40%;
+	margin: 5px auto;
+	display: block;
+}
+section figure figcaption {
+	text-align: center;
+}
+#derecha {
+	width: 20%;
+	background-color: antiquewhite;
+}
+#derecha img {
+	width: 75%;
+	margin: 15px auto;
+	display: block;
+}
+footer {
+	width: 100%;
+	background-color: dimgray;
+	text-align: center;
+	padding: 5px;
+}
+footer p {
+	color: white;
+	margin-bottom: 10px;
+}
+
+nav {
+    background-color: teal;
+	width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav > ul > li {
+    width: 20%;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 5px;
+}
+
+nav > ul > li > ul {
+    display: none;
+}
+
+nav > ul > li:hover > ul {
+    display: block;
+    position: absolute;
+    background-color: teal;
+
+}
+
+nav > ul > li > ul {
+    width: 20%;
+}
+
+nav a:hover {
+    background-color: turquoise;
+}

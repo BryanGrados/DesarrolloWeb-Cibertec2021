@@ -1,0 +1,49 @@
+* {
+    /*margin: 0;
+    padding: 0;*/
+}
+
+nav {
+    background-color: teal;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav > ul > li {
+    width: 20%;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 5px;
+}
+
+nav > ul > li > ul {
+    display: none;
+}
+
+nav > ul > li:hover > ul {
+    display: block;
+    position: absolute;
+    background-color: teal;
+
+}
+
+nav > ul > li > ul {
+    width: 20%;
+}
+
+nav a:hover {
+    background-color: turquoise;
+}

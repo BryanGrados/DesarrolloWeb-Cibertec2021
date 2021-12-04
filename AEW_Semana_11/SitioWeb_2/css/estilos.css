@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightskyblue;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+div {
+    width: 550px;
+    height: 350px;
+    margin: 30px auto;
+    background-color: dodgerblue;
+    position: relative;
+}
+
+#imagen1 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+#imagen2 {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+#imagen3 {
+    position: absolute;
+    bottom: 50px;
+    left: 175px;
+}
